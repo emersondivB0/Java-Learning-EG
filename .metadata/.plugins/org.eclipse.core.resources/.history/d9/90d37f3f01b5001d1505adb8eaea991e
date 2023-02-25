@@ -1,0 +1,26 @@
+
+public class TestFuncionario {
+	
+	public static void main(String[] args) {
+		Funcionario diego = new Funcionario();
+		diego.setDocumento("dgdshdjDGH");
+		diego.setNombre("Diego");
+		diego.setSueldo(2000);
+		diego.setTipo(0);
+		
+		Funcionario gerente = new Funcionario();
+		gerente.setNombre("Pe");
+		gerente.setDocumento("gdsfhsghgf");
+		gerente.setSueldo(6000);
+		gerente.setTipo(1);
+		
+		
+		
+		System.out.println(diego.getSueldo());
+		System.out.println(diego.getBonificacion());
+		System.out.println(gerente.getSueldo());
+		System.out.println(gerente.getBonificacion());
+	}
+
+}
+// Este código no es escalable, es complicado hacerlo crecer o mejorarlo
