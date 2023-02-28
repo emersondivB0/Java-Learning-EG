@@ -1,0 +1,16 @@
+//Java trabaja todo en base a referencias
+public class TestReferencias {
+	
+	public static void main(String[] args) {
+		Funcionario funcionario = new Funcionario();
+		funcionario.setNombre("Diego");
+		
+		Gerente gerente = new Gerente();
+		gerente.setNombre("Jimena");
+		
+		funcionario.setSueldo(2000);
+		gerente.setSueldo(10000);
+		
+	}
+
+}
