@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Funcionario"/>
     <fullyQualifiedTypeName name="ControlBonificacion"/>
+    <fullyQualifiedTypeName name="CuentaCorriente"/>
+    <fullyQualifiedTypeName name="CuentaAhorros"/>
 </qualifiedTypeNameHistroy>

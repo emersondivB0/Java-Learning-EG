@@ -4,7 +4,19 @@ public class Cuenta {
 	private double saldo;
 	private int agencia;
 	private int numero;
-	Cliente titular;
+	private Cliente titular = new Cliente();
+	
+	private static int total = 0;
+	
+
+	
+	public Cuenta(int agencia, int numero) {
+		this.agencia = agencia;
+		this.numero = numero;
+		total++;
+		System.out.println("Se van creando " + total + " cuentas.");
+		
+	}
 	
 	//Vamos a definir el primer método
 	//el void indica que no tiene porque retornar nada del método
@@ -23,7 +35,7 @@ public class Cuenta {
 	
 	public boolean transferir (double valor, Cuenta cuenta) {
 		if (this.saldo >= valor) {
-			this.saldo -= valor;
+			this.retirar(valor);
 			cuenta.depositar(valor);
 			return true;
 		} else {
@@ -54,7 +66,23 @@ public class Cuenta {
 	public Cliente getTitular() {
 		return titular;
 	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public static int getTotal() {
+		return total;
+	}
+
+	public static void setTotal(int total) {
+		Cuenta.total = total;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
 	
-	
+
 
 }
