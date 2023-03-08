@@ -2,7 +2,8 @@
 public class TestFuncionario {
 	
 	public static void main(String[] args) {
-		Funcionario diego = new Funcionario();
+		//Funcionario diego = new Funcionario(); this line doesn't work anymore if the class is abstract
+		Funcionario diego = new Contador();
 		diego.setDocumento("dgdshdjDGH");
 		diego.setNombre("Diego");
 		diego.setSueldo(2000);

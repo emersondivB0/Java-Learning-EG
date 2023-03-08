@@ -1,7 +1,10 @@
-
-public class Cuenta {
+/*
+ * Class Cuenta should be abstract too, as is a general concept, in a bank you have a lot
+ * of account types, none of them is just account
+ */
+public abstract class Cuenta {
 	
-	private double saldo;
+	protected double saldo;
 	private int agencia;
 	private int numero;
 	private Cliente titular = new Cliente();
@@ -20,9 +23,14 @@ public class Cuenta {
 	
 	//Vamos a definir el primer método
 	//el void indica que no tiene porque retornar nada del método
-	public void depositar (double saldo) {
-		this.saldo += saldo;
-	}
+	/*
+	 * If we make Depositar() abstract, we should implement in their children too
+	 */
+	//public void depositar (double saldo) {
+	//	this.saldo += saldo;
+	//}
+	
+	public abstract void depositar(double valor);
 	
 	public boolean retirar (double saldo) {
 		if (this.saldo >= saldo) {
