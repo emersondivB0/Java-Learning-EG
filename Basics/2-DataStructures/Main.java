@@ -10,7 +10,7 @@ public class Main {
 
         Cursos cursos = new Cursos();
         cursos.setId(1);
-        List<Cursos> listaDecursos = new ArrayList<>();
+        List<Cursos> listaDecursos = Arrays.asList(cursos);
         System.out.println(listaDecursos);
 
     }
