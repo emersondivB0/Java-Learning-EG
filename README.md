@@ -1,40 +1,36 @@
-# Repositorio de proyectos cortos para el aprendizaje de Java
+# Repository of Short Projects for Learning Java
 
-Este repositorio contiene una colección de proyectos cortos diseñados para ayudar a los principiantes a aprender el lenguaje de programación Java. Cada proyecto se enfoca en una habilidad o concepto específico, y se presenta en un formato fácil de entender y trabajar.
+This repository contains a collection of short projects designed to assist beginners in learning the Java programming language. Each project focuses on a specific skill or concept and is presented in an easy-to-understand and work-with format.
 
-## Cómo utilizar este repositorio
+## How to Use This Repository
 
-1. Clona este repositorio en tu máquina local usando el comando `https://github.com/emersondivB0/Java-Learning-EG.git`.
+1. Clone this repository to your local machine using the command `https://github.com/emersondivB0/Java-Learning-EG.git`.
 
-2. Navega a la carpeta del proyecto que deseas trabajar.
+2. Navigate to the project folder you wish to work on.
 
-3. Abre el proyecto en tu IDE favorito y trabaja en él para completar los desafíos proporcionados.
+3. Open the project in your favorite IDE and work on it to complete the provided challenges.
 
-4. Siéntete libre de modificar el código existente y experimentar con nuevas ideas.
+4. Feel free to modify the existing code and experiment with new ideas.
 
-## Lista de proyectos
+## List of Projects
 
-- **Proyecto 1 - Java Learning:** estudio estructura de datos simples, loops if, while, for, ejercicios: calcular factorial, crear tablas de multiplicación, matrices básicas.
+- **Project 1 - Java Learning:** Study simple data structures, if-else loops, while loops, for loops, exercises: calculate factorial, create multiplication tables, basic arrays.
 
-- **Proyecto 2 - Byte Bank:** proyecto simple para aprendizaje de OOP, utilizando como referencia la estructura bancaria, creación de cuentas, clientes, trabajadores. Se estudian a manera básica la estructura d euna clase, abstracción, encapsulamiento, herencia y polimorfismo.
+- **Project 2 - Byte Bank:** Simple project for learning Object-Oriented Programming (OOP), using a bank structure as a reference, creating accounts, clients, workers. Basic understanding of class structure, abstraction, encapsulation, inheritance, and polymorphism is covered.
 
-- **Proyecto 3 - Byte Bank Heredado:** extensión del proyecto Byte Bank, para estudiar a profundidad herencia y polimorfismo de OOP.
+- **Project 3 - Inherited Byte Bank:** Extension of the Byte Bank project, diving deeper into OOP concepts of inheritance and polymorphism.
 
-## Contribuir
+## Contribute
 
-Siéntete libre de contribuir a este repositorio agregando nuevos proyectos o mejorando los proyectos existentes. Para hacerlo, sigue estos pasos:
+Feel free to contribute to this repository by adding new projects or improving existing ones. To do so, follow these steps:
 
-1. Haz un fork de este repositorio.
+1. Fork this repository.
 
-2. Clona el fork en tu máquina local.
+2. Clone the fork to your local machine.
 
-3. Crea una nueva rama para tus cambios.
+3. Create a new branch for your changes.
 
-4. Realiza los cambios en la nueva rama.
+4. Make the changes in the new branch.
 
-5. Haz push a la rama en tu fork.
-
-6. Crea una Pull Request (PR) en este repositorio con tus cambios.
-
-¡Gracias por contribuir!
+5. Push the branch to your fork.
 
