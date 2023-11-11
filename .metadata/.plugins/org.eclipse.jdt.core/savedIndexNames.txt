@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/home/emerson/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-3819240742.index
-101655981.index

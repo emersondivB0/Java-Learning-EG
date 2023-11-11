@@ -1,6 +1,0 @@
-
-public class Gerente {
-	//Puedo hacer lo mismo que para el Funcionario, sólo que la bonificacón es un salario
-	// Mejor que crear una nueva clase repitiendo todo el código, es modificar la primera un poco
-
-}
