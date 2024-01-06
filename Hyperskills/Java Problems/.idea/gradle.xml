@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/A literal for an address" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/A valid string" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/Find an invalid literal" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/Incorrect literal" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/Match groups and literals" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/Non string literals" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/Save the day" />
+            <option value="$PROJECT_DIR$/Topics/Basic literals  numbers, strings and characters/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Basics" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Close brackets" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Demystifying 'System.out.println()' in Java" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Hello" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Java features" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Not a black box" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Running a program on different platforms" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Introduction to Java/WORA" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Completing a code to display a greeting message" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Digits from 0 to 9 backwards" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/First, second, third" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Fixing the greeting message compiler error" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Goodbye, world" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Stars" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/We need to learn Java" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/What does the code print" />
+            <option value="$PROJECT_DIR$/Topics/Types and variables/Fill the declaration" />
+            <option value="$PROJECT_DIR$/Topics/Types and variables/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Concatenating and printing text, integer, and boolean values" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Elements of a program" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Find a keyword" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Find a word that is not a keyword" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Hello, Java" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Match terms and their definitions" />
+            <option value="$PROJECT_DIR$/Topics/Writing first program/Theory" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,11 +1,14 @@
 import java.util.HashSet;
 import java.util.Set;
+import java.util.Vector;
 
 class Solution {
   /*
    * 1. Two Sums
-   * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-   * You may assume that each input would have exactly one solution, and you may not use the same element twice.
+   * Given an array of integers nums and an integer target, return indices of the
+   * two numbers such that they add up to target.
+   * You may assume that each input would have exactly one solution, and you may
+   * not use the same element twice.
    * You can return the answer in any order.
    *
    * Example 1:
@@ -18,8 +21,8 @@ class Solution {
   public int[] twoSum(int[] nums, int target) {
     int[] k = new int[2];
     for (int i = 0; i < (nums.length); i++) {
-      for (int j = i+1; j < (nums.length); j++) {
-        if  (nums[i] + nums[j] == target) {
+      for (int j = i + 1; j < (nums.length); j++) {
+        if (nums[i] + nums[j] == target) {
           k[0] = i;
           k[1] = j;
           return k;
@@ -31,16 +34,21 @@ class Solution {
 
   /*
    * 2. Best Time to Buy and Sell Stock
-   * You are given an array prices where prices[i] is the price of a given stock on the ith day.
-   * You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
-   * Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+   * You are given an array prices where prices[i] is the price of a given stock
+   * on the ith day.
+   * You want to maximize your profit by choosing a single day to buy one stock
+   * and choosing a different day in the future to sell that stock.
+   * Return the maximum profit you can achieve from this transaction. If you
+   * cannot achieve any profit, return 0.
    * 
    * Example 1:
    * 
    * Input: prices = [7,1,5,3,6,4]
    * Output: 5
-   * Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
-   * Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+   * Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit =
+   * 6-1 = 5.
+   * Note that buying on day 2 and selling on day 1 is not allowed because you
+   * must buy before you sell.
    */
   public int maxProfit(int[] prices) {
     int profit = 0;
@@ -81,6 +89,38 @@ class Solution {
     for (final int num : nums) {
       numeros.add(num);
     }
-      return numeros.size() != nums.length;
+    return numeros.size() != nums.length;
   }
-}
+
+  /*
+   * 4. Product of Array Except Self
+   * 
+   * Given an integer array nums, return an array answer such that answer[i] is
+   * equal to the product of all the elements of nums except nums[i].
+   * The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit
+   * integer.
+   * You must write an algorithm that runs in O(n) time and without using the
+   * division operation.
+   * 
+   * Example 1:
+   * 
+   * Input: nums = [1,2,3,4]
+   * Output: [24,12,8,6]
+   */
+  public int[] productExceptSelf(int[] nums) {
+    int[] answer = new int[nums.length];
+    for (int i = 0; i < nums.length; i++) {
+      int leftp = 1;
+      int rightp = 1;
+      // left product
+      for (int j = 0; j < i; j++) {
+        leftp *= nums[j];
+      }
+      for (int k = i + 1; k < nums.length; k++) {
+        rightp *= nums[k];
+      }
+      answer[i] = leftp * rightp;
+    }
+    return answer;
+  }
+};

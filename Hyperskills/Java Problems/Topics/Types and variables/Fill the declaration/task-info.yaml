@@ -1,0 +1,21 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      public class Main {
+          public static void main(String[] args) {
+      
+              number  // Change this line
+      
+              System.out.println(number);
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2485#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 24 Dec 2023 09:06:07 UTC"
+record: -1
+submission_language: java17
