@@ -55,6 +55,7 @@ import org.apache.commons.csv.CSVParser;
  * @author Duke Software Team
  */
 public class FileResource {
+    public File[] getFiles;
     private String myPath;
     private String mySource;
     private File mySaveFile;
@@ -438,5 +439,12 @@ public class FileResource {
         catch (Exception e) {
             throw new ResourceException("FileResource: cannot access " + fname);
         }
+    }
+
+    public File[] getFiles() {
+        if (mySaveFile != null) {
+            return new File[] { mySaveFile };
+        }
+        return new File[0];
     }
 }

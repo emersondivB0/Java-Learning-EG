@@ -21,21 +21,23 @@ public class Solutions {
      * Follow up: Can you solve the problem in O(1) extra space complexity? (The output array
      * does not count as extra space for space complexity analysis.)
      */
-    public int[] productExceptSelf(int[] nums) {
-        int[] answer = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            int leftp = 1;
-            int rightp = 1;
-            for (int j = 0; j < nums.length; j++) {
-                if (j < i) {
-                    leftp *= nums[j];
-                } else if (j > i) {
-                    rightp *= nums[j];
-                }
-            }
-               answer[i] = leftp * rightp;
+  public int[] productExceptSelf(int[] nums) {
+    int n = nums.length;
+    int[] prefixProducts = new int[n];
+    prefixProducts[0] = 1;
 
-        }
-        return answer;
+    for (int i = 1; i < n; i++) {
+        prefixProducts[i] = prefixProducts[i - 1] * nums[i - 1];
     }
+
+    int suffixProduct = 1;
+    int[] answer = new int[n];
+
+    for (int i = n - 1; i >= 0; i--) {
+        answer[i] = suffixProduct * prefixProducts[i];
+        suffixProduct *= nums[i];
+    }
+
+    return answer;
+}
 }
