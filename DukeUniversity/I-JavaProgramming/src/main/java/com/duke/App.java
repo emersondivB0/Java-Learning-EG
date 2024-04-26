@@ -1,5 +1,7 @@
 package com.duke;
 
+import com.duke.week2.StorageTest;
+
 /**
  * Hello world!
  *
@@ -18,9 +20,11 @@ public class App {
     //FindGeneSimpleAndTest test = new FindGeneSimpleAndTest();
     //test.testFindGeneSimple();
 
-    AllCodons test = new AllCodons();
+    //AllCodons test = new AllCodons();
     //test.testFindStopCodon();
-    test.testFindGeneWithValidDNA();
+    //test.testFindGeneWithValidDNA();
+
+    StorageTest.storageTest();
 
 
   }

@@ -78,7 +78,7 @@ public class AllCodons {
     String dna = "ATGTAAGCCCTATAG";
     String expectedGene = "ATGTAAGCCCTA";
 
-    String actualGene = findGene(dna);
+    String actualGene = findGene(dna, 0);
 
     if (!actualGene.equals(expectedGene)) {
       System.out.println("testFindGeneWithValidDNA failed");

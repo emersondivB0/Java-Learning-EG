@@ -1,4 +1,4 @@
-package com.duke;
+package com.duke.week1;
 /*
  * Finds a protein within a strand of DNA represented as a string of c,g,t,a letters.
  * A protein is a part of the DNA strand marked by start and stop codons (DNA triples)
@@ -6,8 +6,6 @@ package com.duke;
  *
  * @author Duke Software Team
  */
-import edu.duke.*;
-import java.io.*;
 
 public class TagFinder {
 	public String findProtein(String dna) {

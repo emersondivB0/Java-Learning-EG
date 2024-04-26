@@ -1,4 +1,4 @@
-package com.duke;
+package com.duke.week1;
 
 public class Part3 {
     // Method checks if stringa appears at least twice in stringb

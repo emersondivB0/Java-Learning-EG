@@ -1,4 +1,4 @@
-package com.duke;
+package com.duke.week1;
 
 public class Part2 {
     // Method finds a gene in a DNA strand (modified for start/stop codons and case)

@@ -1,4 +1,4 @@
-package com.duke;
+package com.duke.week1;
 
 import edu.duke.*;
 import java.io.File;
