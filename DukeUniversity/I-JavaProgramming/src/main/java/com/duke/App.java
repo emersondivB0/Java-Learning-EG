@@ -1,6 +1,7 @@
 package com.duke;
 
 import com.duke.week2.StorageTest;
+import com.duke.week3.FirstCSVExample;
 
 /**
  * Hello world!
@@ -9,23 +10,9 @@ import com.duke.week2.StorageTest;
 public class App {
   public static void main(String[] args) {
     System.out.println("Init Learning!");
-    //HelloWorld obj = new HelloWorld();
-    //obj.runHello();
 
-    //PerimeterAssignmentRunner pr = new PerimeterAssignmentRunner();
-    //pr.testPerimeter();
-    //pr.testPerimeterMultipleFiles();
-    //pr.testFileWithLargestPerimeter();
-
-    //FindGeneSimpleAndTest test = new FindGeneSimpleAndTest();
-    //test.testFindGeneSimple();
-
-    //AllCodons test = new AllCodons();
-    //test.testFindStopCodon();
-    //test.testFindGeneWithValidDNA();
-
-    StorageTest.storageTest();
-
+    FirstCSVExample firstCSVExample = new FirstCSVExample();
+    firstCSVExample.readFood();
 
   }
 }
