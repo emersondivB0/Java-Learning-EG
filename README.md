@@ -1,4 +1,4 @@
-# Repository of Short Projects for Learning Java
+# Repository of Short Projects in the way to Learn Java
 
 This repository contains a collection of short projects designed to assist beginners in learning the Java programming language. Each project focuses on a specific skill or concept and is presented in an easy-to-understand and work-with format.
 
@@ -33,4 +33,3 @@ Feel free to contribute to this repository by adding new projects or improving e
 4. Make the changes in the new branch.
 
 5. Push the branch to your fork.
-
