@@ -4,7 +4,7 @@ This repository contains a collection of short projects designed to assist begin
 
 ## How to Use This Repository
 
-1. Clone this repository to your local machine using the command `https://github.com/emersondivB0/Java-Learning-EG.git`.
+1. Clone this repository to your local machine using the command `git@github.com:emersondivB0/Java-Initial-Projects.git`.
 
 2. Navigate to the project folder you wish to work on.
 
